@@ -1,0 +1,536 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Home Page</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+    integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link rel="stylesheet" href="./home.css">
+</head>
+
+<body>
+  <div class="home-div">
+    <div class="nav-bar navbar navbar-light bg-light">
+      <a class="navbar-brand" href="#">
+        <img alt="not found" src="./planify-logo.png"></a>
+
+      <div class="topnav">
+        <div class="row">
+          <div class="col-md-6">
+            <!-- <form class="form-inline my-2 my-lg-0">
+                 <input class="form-control mr-sm-2" type="search" placeholder="Search Stocks,indices,ETF or brands" aria-label="Search">
+                 <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+               </form> -->
+            <a class="active" href="#home">Home</a>
+            <a href="#contact">Contact</a>
+            <a href="#about">About</a>
+            <!-- <form class="form-inline my-2 my-lg-0"> -->
+          </div>
+          <div class="col-md-6" style="display: inline-flex;
+          padding: 10px;">
+            <input class="form-control mr-sm-2" type="search" placeholder="Search Stocks,indices,ETF or brands"
+              aria-label="Search">&nbsp;
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+          </div>
+        </div>
+      </div>
+      <!-- </form> -->
+    </div>
+  </div>
+
+
+  <!-- Side navigation bar-->
+
+  <div class="sidenav">
+    <div class="sidenav-bar">
+      <a href="#">Snapshot</a>
+      <a href="#">Key Ratio</a>
+      <a href="#">Peers</a>
+      <a href="#">Financials</a>
+      <a href="#">Ownership</a>
+      <a href="#">News</a>
+      <a href="#">Events</a>
+    </div>
+  </div>
+  <div class="rating-nav">
+    <button id="probutton" type="button" name="Pro-Only">Pro Only</button>
+    <h5>RATING</h5>
+    <h5>RECOMENDATION</h5>
+    <h5>ACCMULATION RANGE</h5>
+
+  </div>
+  <!-- Right side fixed navbar-->
+  <div class="stock-bar">
+    <h5><b>HDFC Bank Ltd.</b></h5>
+    <span>1890.45</span>
+    <p>-------------------------------------</p>
+    <button id="probutton" class="bg-indigo" type="button" name="place_order">PLACE ORDER</button>
+    <h5>ROFR Required</h5>
+    Available in Despository
+    <div class="checkbox">
+      <label><input type="checkbox" value="">NSDL</label>
+      <label><input type="checkbox" value="">CDSL</label>
+    </div>
+    <p>Available for Investment</p>
+    <div class="checkbox">
+      <label><input type="checkbox" value="">Primary</label>
+      <label><input type="checkbox" value="">Secondary</label>
+    </div>
+  </div>
+  <!--closing of stock-bar right side-->
+  <div class="checklist">
+    <h4 class="text-indigo">Investment checklist</h4>
+    <div class="investment-grid">
+
+      <div class="grid-item">Management <b> Trustworthy</b></div>
+      <div class="grid-item">Accounting <b> Practice</b></div>
+      <div class="grid-item">Profitability <b> Outstanding</b></div>
+      <div class="grid-item">Solvency <b> Exceed</b></div>
+      <div class="grid-item">Growth <b> Expectation</b></div>
+      <div class="grid-item">Valuation <b> Undervalued</b></div>
+      <div class="grid-item">Business Type <b> Fairly Valued</b></div>
+      <div class="grid-item">Business Type <b> Fairly Valued</b></div>
+    </div>
+  </div>
+
+  <!--!main div element by using grid-->
+  <div class="body-item">
+
+    <div class="main-essential-grid">
+      <div class="essential-item">
+        <p class="third-heading text-essential">ISIN</p>
+        <p class="second-heading ">ADHFH1426K </p>
+      </div>
+      <div class="essential-item">
+        <p class="third-heading text-essential">FACE VALUE</p>
+        <p class="second-heading "> 98,3456 Cr </p>
+      </div>
+      <div class="essential-item">
+        <p class="third-heading text-essential">Total Shares</p>
+        <p class="second-heading "> 98,3456 Cr </p>
+      </div>
+      <div class="essential-item">
+        <p class="third-heading text-essential">Total Income </p>
+        <p class="second-heading "> 12345.5 </p>
+      </div>
+      <div class="essential-item">
+        <p class="third-heading text-essential">Profit After Tax </p>
+        <p class="second-heading "> 12345.5 </p>
+      </div>
+      <div class="essential-item">
+        <p class="third-heading text-essential">Promoter Holding </p>
+        <p class="second-heading "> 78.5% </p>
+      </div>
+      <div class="essential-item">
+        <p class="third-heading text-essential">EPS </p>
+        <p class="second-heading ">45 </p>
+      </div>
+      <div class="essential-item">
+        <p class="third-heading text-essential">P/E </p>
+        <p class="second-heading "> 48.6 </p>
+      </div>
+      <div class="essential-item">
+        <p class="third-heading text-essential">P/B </p>
+        <p class="second-heading ">45.5 </p>
+      </div>
+      <div class="essential-item">
+        <p class="third-heading text-essential">Market Capitalisation </p>
+        <p class="second-heading "> 100545554 Cr </p>
+      </div>
+      <div class="essential-item">
+        <p class="third-heading text-essential">Enterprise Value </p>
+        <p class="second-heading "> 100225.86 CR</p>
+      </div>
+      <div class="essential-item">
+        <p class="third-heading text-essential"> Book Value </p>
+        <p class="second-heading "> 101585.5 Cr</p>
+      </div>
+      <div class="essential-item">
+        <p class="third-heading text-essential">Intrinsic Value </P>
+        <p class="second-heading "> 95,781 Cr</p>
+      </div>
+      <div class="essential-item">
+        <p class="third-heading text-essential">Dividend Yield </p>
+        <p class="second-heading "> 95286.5 </p>
+      </div>
+      <div class="essential-item">
+        <p class="third-heading text-essential">Earning Yield </p>
+        <p class="second-heading "> 95286.6 Cr</p>
+      </div>
+      <div class="essential-item">
+        <p class="third-heading text-essential">Sector </p>
+        <p class="second-heading ">Real State</p>
+      </div>
+      <div class="essential-item">
+        <p class="third-heading text-essential">Sub-Sector </p>
+        <p class="second-heading ">Auto Parts</p>
+      </div>
+      <div class="essential-item">
+        <p class="third-heading text-essential">Category</p>
+        <p class="second-heading ">PreIPO</p>
+      </div>
+      <div class="essential-item">
+        <p class="third-heading text-essential">Cash Flow..Operations</p>
+        <p class="second-heading "> 1002866 Cr</p>
+      </div>
+      <div class="essential-item">
+        <p class="third-heading text-essential">Cash Flow...Financing </p>
+        <p class="second-heading "> 1002866 C</p>
+      </div>
+    </div>
+    <!--closing of main-essential grid-->
+
+    <h4 class="text-indigo" id="headingdetails">Growth</h4>
+    <div class="growth">
+
+      <div class="sales grid-item">
+        <h4 class="text-indigo"><strong>Compound Sales Growth</strong></h4><span><button id="probutton" type="button"
+            name="Pro-Only">Pro Only</button></span>
+        <ul>
+          <li> 45 % </li>
+          <li> 19 % </li>
+        </ul>
+      </div>
+      <div class="profit grid-item">
+        <h4 class="text-indigo"><strong>Compound Profit Growth</strong></h4><span><button id="probutton" type="button"
+            name="Pro-Only">Pro Only</button></span>
+
+      </div>
+      <div class="stock grid-item">
+        <h4 class="text-indigo"><strong>Stock Price CAGR</strong></h4><span><button id="probutton" type="button"
+            name="Pro-Only">Pro Only</button></span>
+      
+      </div>
+      <div class="return grid-item">
+        <h4 class="text-indigo"><strong>Return to Equity</strong></h4><span><button id="probutton" type="button"
+            name="Pro-Only">Pro Only</button></span>
+      </div>
+
+    </div>
+    <!--closing of growth div-->
+
+    <div class=" about col-md-12 bg-indigo">
+      <h3 class="main-heading">Pre IPO</h3>
+      <p> Pre IPO is product by Planify which brings "Private Equity for Retail investors". One can invest in
+        companies before it get listed on stock market.<br>Good IPO in India do get oversubscribed by 30x-50x. Retail
+        investor hardly get shares before listing.
+        Post listing, pricing are generally get overvalued most of the times.<br>As more and more companies choose to
+        stay private longer, Retail miss on ultra growth stage of a company. Valuations of private companies rise
+        multi-fold before listing. You get to ride the wave.</p>
+    </div>
+
+    <!--main-haeding Closed-->
+
+    <!--/listig IPO details-->
+    <div class="row">
+      <h4 id="headingdetails" class="text-indigo"> IPO Details</h4>
+      <div class="col-sm-4 row-div">
+
+        <p class="third-heading text-essential">Open Date</p>
+        <p>24 Dec 2019 at 09:00 AM</p>
+      </div>
+      <div class="col-sm-4 row-div">
+        <p class="third-heading text-essential">Closed Date</p>
+        <p>8 Jan 2020 at 08:00 PM</p>
+      </div>
+      <div class="col-sm-4 row-div">
+        <p class="third-heading text-essential">List Date</p>
+        <p>20 Jan 2020 at 09:00 AM</p>
+      </div>
+
+    </div>
+    <!--closing of ipo row--->
+    <div class="detail-container" id="ipodetails">
+      <div class="detailipo-item">
+        <p class="fouth-heading text-essential">Offer for sale </p>
+        <p> 234.23 cr</p>
+      </div>
+      <div class="detailipo-item">
+        <p class="fouth-heading text-essential">Fresh issue </p>
+        <p>₹ 567.23 cr</p>
+      </div>
+      <div class="detailipo-item">
+        <p class="fouth-heading text-essential">Total IPO Size </p>
+        <p>₹ 801.46 cr</p>
+      </div>
+      <div class="detailipo-item">
+        <p class="fouth-heading text-essential">Price Band </p>
+        <p>₹1000- ₹1200 </p>
+      </div>
+      <div class="detailipo-item">
+        <p class="fouth-heading text-essential">Price Band </p>
+        <p>₹1000- ₹1200 </p>
+      </div>
+      <div class="detailipo-item">
+        <p class="fouth-heading text-essential">Minimum Qty </p>
+        <p>25 (Integer #)</p>
+      </div>
+      <div class="detailipo-item">
+        <p class="fouth-heading text-essential">Maximun Qty </p>
+        <p>200 (Integer #)</p>
+      </div>
+      <div class="detailipo-item">
+        <p class="fouth-heading text-essential">Grey Market Premium </p>
+        <p>₹45- ₹60 </p>
+      </div>
+
+    </div>
+    <!--Closing of detail container for the ipo details-->
+    <div class="subscription row">
+      <div id="subscription_p" class="col-sm-4 row-div">
+        <p>Total Subscription (0.50x) </p>
+        <p> </p>
+      </div>
+      <div class="col-sm-4 row-div">
+        <p>Retail </p>
+        <p> 23.4x </p>
+      </div>
+      <div class="col-sm-4 row-div">
+        <p> QIB </p>
+        <p> ---- </p>
+      </div>
+      <div class="col-sm-4 row-div">
+        <p>Non Institutional </p>
+        <p>---- </p>
+      </div>
+    </div>
+    <!--Closing of the subscription div -->
+    <div class="funding-main row">
+      <p id="headingdetails" class="text-indigo"> Funding</p>
+      <p> </p>
+      <div class="funding-part1">
+
+        <div class="funding row">
+          <p class="text-essential"> Stage</p>
+          <p class="fourth-heading ">Maturity Stage </p>
+
+        </div>
+        <div class="funding row">
+          <p class="text-essential"> Looking For</p>
+          <p class="fourth-heading">Series A </p>
+        </div>
+      </div>
+      <!--funding-part1 closed-->
+
+      <div class="funding-part2">
+        <table class="table table-borderless">
+          <tr class="text-indigo">
+            <th>Funding Round</th>
+            <th>Date of Investment</th>
+            <th>Funded By</th>
+            <th>Fund Name</th>
+            <th>Funding Amount</th>
+          </tr>
+          <tr>
+            <td>Series A</td>
+            <td>21 OCt 2019</td>
+            <td>ABC Company</td>
+            <td>A One9</td>
+            <td>5 Million $</td>
+          </tr>
+          <tr>
+            <td>Series A</td>
+            <td>21 OCt 2019</td>
+            <td>ABC Company</td>
+            <td>A One9</td>
+            <td>5 Million $</td>
+          </tr>
+          <tr>
+            <td>Series A</td>
+            <td>21 OCt 2019</td>
+            <td>ABC Company</td>
+            <td>A One9</td>
+            <td>5 Million $</td>
+          </tr>
+          <tr>
+            <td>Series A</td>
+            <td>21 OCt 2019</td>
+            <td>ABC Company</td>
+            <td>A One9</td>
+            <td>5 Million $</td>
+          </tr>
+        </table>
+      </div>
+    </div>
+    <!--closing of funding-div-->
+    <div class="addrow"><button id="probutton" class="bg-indigo" type="button" name="place_order">+ADD ROW </button>
+    </div>
+
+    <!-- Starting of Merger & Acquistiond-->
+    <div class=" merger">
+      <p class="text-indigo" id="headingdetails">Merger & Acquistions</p>
+
+      <div class=" subscription row">
+        <div class="col-sm-4 row-div">
+          <h4 class="fourth-heading text-indigo"><strong>Merger</strong> </h4>
+          <ul id="merger_aqua">
+            <li>lorem lpsum labore et dolore magna aliqua.Ut enim ad minim veniam.</li>
+            <li>Duis aute irujcs fugiat nulla pariatur.</li>
+            <li>Loream Ipsum Excepteur sin proiderunt mollit anim id est laboru</li>
+            <li>Loream Ipsum Excepteur sin proiderunt mollit anim id est laboru</li>
+          </ul>
+        </div>
+        <div class="col-sm-4 row-div">
+          <h4 class="fourth-heading text-indigo"><strong>Acquistions</strong> </h4>
+          <ul id="merger_aqua">
+            <li>lorem lpsum labore et dolore magna aliqua.Ut enim ad minim veniam.</li>
+            <li>Duis aute irujcs fugiat nulla pariatur.</li>
+            <li>Loream Ipsum Excepteur sin proiderunt mollit anim id est laboru</li>
+            <li>Loream Ipsum Excepteur sin proiderunt mollit anim id est laboru</li>
+          </ul>
+
+        </div>
+        <div class="col-sm-4 row-div">
+          <h4 class="fourth-heading text-indigo"><strong> Investment</strong></h4>
+          <ul id="merger_aqua">
+            <li>lorem lpsum labore et dolore magna aliqua.Ut enim ad minim veniam.</li>
+            <li>Duis aute irujcs fugiat nulla pariatur.</li>
+            <li>Loream Ipsum Excepteur sin proiderunt mollit anim id est laboru</li>
+            <li>Loream Ipsum Excepteur sin proiderunt mollit anim id est laboru</li>
+          </ul>
+        </div>
+
+      </div>
+      <!--closing of the Subscription row-->
+    </div>
+    <!--closing of the merger div-->
+
+    <div class="subsidiaries-business row">
+      <div class="col-sm row-div">
+        <p class="text-indigo" id="headingdetails">Subsidiaries</p>
+
+
+        <ul id="merger_aqua">
+          <li>lorem lpsum labore et dolore magna aliqua.Ut enim ad minim veniam.</li>
+          <li>Duis aute irujcs fugiat nulla pariatur.</li>
+          <li>Loream Ipsum Excepteur sin proiderunt mollit anim id est laboru</li>
+          <li>Loream Ipsum Excepteur sin proiderunt mollit anim id est laboru</li>
+        </ul>
+      </div>
+      <div class="col-sm">
+        <p class="text-indigo" id="headingdetails">Business Model</p>
+
+        <ul id="merger_aqua">
+          <li>lorem lpsum labore et dolore magna aliqua.Ut enim ad minim veniam.</li>
+          <li>Duis aute irujcs fugiat nulla pariatur.</li>
+          <li>Loream Ipsum Excepteur sin proiderunt mollit anim id est laboru</li>
+          <li>Loream Ipsum Excepteur sin proiderunt mollit anim id est laboru</li>
+        </ul>
+
+      </div>
+
+
+    </div>
+    <!--closing of the Model Subscription row-->
+
+    <p class="text-indigo" id="headingdetails">Product & Services</p>
+    <div class="product-services col-sm">
+
+      <div class="productsub  col">
+        <div class="col-sm row-div">
+
+          <ul id="merger_aqua">
+            <li>lorem lpsum labore et dolore magna aliqua.Ut enim ad minim veniam.</li>
+            <li>Duis aute irujcs fugiat nulla pariatur.</li>
+            <li>Loream Ipsum Excepteur sin proiderunt mollit anim id est laboru</li>
+            <li>Loream Ipsum Excepteur sin proiderunt mollit anim id est laboru</li>
+          </ul>
+        </div>
+        <p class="text-indigo" id="headingdetails">Assest</p>
+        <div class="col-sm row-div">
+          <ul id="merger_aqua">
+            <li>lorem lpsum labore et dolore magna aliqua.Ut enim ad minim veniam.</li>
+            <li>Duis aute irujcs fugiat nulla pariatur.</li>
+            <li>Loream Ipsum Excepteur sin proiderunt mollit anim id est laboru</li>
+            <li>Loream Ipsum Excepteur sin proiderunt mollit anim id est laboru</li>
+          </ul>
+
+        </div>
+
+        <div class="product-revenue">
+          <img src="pie.png" alt="not found">
+          <h2></h2>
+        </div>
+
+      </div>
+      <!--closing of the productsub  col-->
+
+    </div>
+    <!--closing of the product-services  col-->
+
+    <!-- Starting of Industry Over view-->
+    <div class=" merger">
+      <p class="text-indigo" id="headingdetails">Industry Overview</p>
+
+      <div class=" subscription row">
+        <div class="col-sm-4 row-div">
+          <h4 class="fourth-heading text-indigo"><strong>Industry Statistics</strong> </h4>
+          <ul id="merger_aqua">
+            <li>lorem lpsum labore et dolore magna aliqua.Ut enim ad minim veniam.</li>
+            <li>Duis aute irujcs fugiat nulla pariatur.</li>
+            <li>Loream Ipsum Excepteur sin proiderunt mollit anim id est laboru</li>
+            <li>Loream Ipsum Excepteur sin proiderunt mollit anim id est laboru</li>
+          </ul>
+        </div>
+        <div class="col-sm-4 row-div">
+          <h4 class="fourth-heading text-indigo"><strong>Future Prospects</strong> </h4>
+          <ul id="merger_aqua">
+            <li>lorem lpsum labore et dolore magna aliqua.Ut enim ad minim veniam.</li>
+            <li>Duis aute irujcs fugiat nulla pariatur.</li>
+            <li>Loream Ipsum Excepteur sin proiderunt mollit anim id est laboru</li>
+            <li>Loream Ipsum Excepteur sin proiderunt mollit anim id est laboru</li>
+          </ul>
+
+        </div>
+        <div class="col-sm-4 row-div">
+          <h4 class="fourth-heading text-indigo"><strong> Governmen Intiatives Ini</strong></h4>
+          <ul id="merger_aqua">
+            <li>lorem lpsum labore et dolore magna aliqua.Ut enim ad minim veniam.</li>
+            <li>Duis aute irujcs fugiat nulla pariatur.</li>
+            <li>Loream Ipsum Excepteur sin proiderunt mollit anim id est laboru</li>
+            <li>Loream Ipsum Excepteur sin proiderunt mollit anim id est laboru</li>
+          </ul>
+        </div>
+
+      </div>
+      <!--closing of the Subscription row-->
+    </div>
+    <!--closing of the merger div-->
+    <!--closing of growth div-->
+
+    <div class=" about col-md-12 " style="background-color:rgba(255,10,124,1.0);">
+      <h3 class="main-heading">Awards & Achievements</h3>
+      <ul id="merger_aqua">
+        <li>lorem lpsum labore et dolore magna aliqua.Ut enim ad minim veniam.</li>
+        <li>Duis aute irujcs fugiat nulla pariatur.</li>
+        <li>Loream Ipsum Excepteur sin proiderunt mollit anim id est laboru</li>
+        <li>Loream Ipsum Excepteur sin proiderunt mollit anim id est laboru</li>
+      </ul>
+
+    </div>
+
+    <!-- main-haeding Closed-->
+
+    <!-- <div class="row ">
+                  <div class="col-sm">
+                    One of three columns
+                  </div>
+                  <div class="col-sm">
+                    One of three columns
+                  </div>
+
+                </div>-->
+
+
+  </div>
+  <!---closing of the body-item-->
+
+  </div>
+  <!--closing of the home-dic-->
+
+
+</body>
+
+</html>

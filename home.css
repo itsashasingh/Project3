@@ -1,0 +1,382 @@
+html, body {
+    background: #fcfcfc;
+    font-family: 'Source Sans Pro', Helvetica, Arial, serif;
+}
+.nav-bar{
+  /* height: 20%; */
+  width: 100%;
+  border: 2px solid black;
+  display: block;
+  background-color: white;
+  position: fixed;
+ z-index:2;
+}
+
+.navbar-brand {
+  float: left;
+  height: auto !important;
+  padding: auto !important;
+  font-size: 18px;
+  line-height: 20px;
+}
+
+.topnav {
+  background-color: white;
+  overflow: hidden;
+  text-align: left;
+  align-items: center;
+  padding: 16px;
+
+}
+.topnav a {
+  float: right;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+
+.sidenav {
+  height: 50%;
+  width: 180px; /* Set the width of the sidebar */
+  position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+  z-index: 1; /* Stay on top */
+  top: 20%; /* Stay at the top */
+  left: 0;
+  background-color:#f8f9fa; /* Black */
+  padding-top: 20px;
+  /* border: 1px solid Black; */
+  margin-bottom: 10px;
+  box-sizing: border-box;
+}
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+ box-shadow: 0px 2px 6px rgb(0 0 0 / 4%) ;
+}
+
+
+
+.sidenav a:hover {
+  color: Black;
+  display:block;
+  background-color: white;
+}
+/*Rating div in which RECOMENDATION is mention8*/
+.rating-nav{
+  height: 30%;
+  width: 180px;
+  position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+  z-index: 1; /* Stay on top */
+  top: 70%; /* Stay at the top */
+  left: 0;
+  background-color: white; /* Black */
+  padding-top: 20px;
+  /* border: 1px solid Black; */
+
+}
+
+
+#probutton{
+background-color:rgba(255,10,124,1.0);
+border-radius: 10px;
+color: white;
+}
+
+.bg-indigo {
+    background: rgba(103,1,111,1.0) !important;
+    color: #fff;
+}
+.text-indigo{
+  color: rgba(103,1,111,1.0);
+}
+.rating-nav h5{
+  padding-top: 5px;
+  padding-bottom: 20px;
+}
+
+.stock-bar{
+  height: 40%;
+  width: 200px;
+  position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+  z-index: 1; /* Stay on top */
+  top: 20%; /* Stay at the top */
+  right: 0;
+  background-color: #f8f9fa; /* Black */
+  padding-top: 20px;
+  padding-left: 10px;
+  /* border: 1px solid Black; */
+  border-radius: 10px;
+
+}
+
+
+/* Investment checklist*/
+.checklist{
+
+  height: 40%;
+  width: 200px;
+  position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+  overflow: hidden;; /*Add the scroll*/
+  z-index: 1; /* Stay on top */
+  top: 60%; /* Stay at the top */
+  right: 0;
+  background-color: #f8f9fa; /* Black */
+  /* border: 1px solid Black; */
+}
+
+.checklist h5{
+  margin: 0;
+  padding: 5px;
+  text-align: center;
+}
+.investment-grid {
+  display: grid;
+  grid-template-columns: 90px 90px;
+  background-color: #f8f9fa;
+  padding: 20px;
+  gap: 5px;
+  align-items: center;
+}
+ .grid-item {
+  background-color: white;
+  /* border: 1px solid rgba(0, 0, 0, 0.8); */
+  padding: 5px;
+  box-shadow: 0px 2px 6px rgb(0 0 0 / 4%) ;
+}
+.home-div{
+  height: 100%;
+  width: 100%;
+}
+
+/*For the body part elements*/
+.body-item{
+/* border: 2px solid red; */
+position: absolute;
+width: 70%;
+top: 25%;
+right: 180px;
+left: 200px;
+
+}
+.text-essential {
+    color: rgba(161,160,174,1.0) ;
+}
+
+.second-heading {
+    font-size: 20px;
+    line-height: 25px;
+}
+.third-heading {
+    font-size: 18px;
+    line-height: 23px;
+}
+.fourth-heading{
+  font-size:14px;
+  line-height: 10px;
+}
+
+
+/*main body grid coding started*/
+
+.main-essential-grid{
+  position: relative;
+  display: grid;
+  padding: 10px;
+  width: inherit;
+  top:20%;
+  grid-template-columns: 200px 200px 200px 200px;
+  gap:20px;
+
+}
+
+/*Grid item of the Essential*/
+
+
+.essential-item{
+  background-color: white;
+  /* border: 1px solid rgba(0, 0, 0, 0.8); */
+  padding: 10px;
+  text-align: center;
+  box-shadow: 0px 2px 6px rgb(0 0 0 / 4%) ;
+
+}
+
+
+.growth{
+  display: grid;
+  grid-template-columns:auto auto;
+  padding: 10px;
+  gap:10px;
+  /* border:5px solid green; */
+  background-color: white;
+
+}
+
+.Sales ul{
+ list-style-type: none;
+ color: black;
+}
+.growth li{
+  display: inline-block;
+}
+
+.main-heading{
+  font-size: 22px;
+ line-height: 27px;
+}
+
+.row-div{
+  text-align:center;
+  box-shadow: 0px 2px 4px 6px rgb(0 0 0 / 4%) ;
+   border-radius: 5px;
+}
+
+.about{
+  padding:10px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  border-radius: 20px;
+}
+
+.detail-container{
+  display: grid;
+  grid-template-columns: auto auto auto;
+  background-color: #f8f9fa;
+  padding: 10px;
+  display :flex;
+  flex-direction:row;
+
+  }
+.detailipo-item {
+  background-color: #f8f9fa;
+  border-radius: 5px;
+  padding: 10px;
+  margin:8px;
+  text-align: center;
+  box-shadow: 2px 2px 3px rgb(0 0 0 / 4%) ;
+  }
+
+  #headingdetails{
+    padding-left: 20px;
+    margin-left: 10px;
+    font-size: 22px;
+    font-weight: bold;
+
+  }
+
+  #ipodetails{
+    padding-left: 20px;
+    margin-left: 10px;
+
+  }
+.subscription{
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+  }
+
+#subscription_p {
+  background-color: rgba(255,10,124,1.0);
+  color: white;
+  text-align: center;
+  padding: 10px;
+  margin-left: 100px;
+  margin-top: 5px;
+
+}
+
+.funding-main{
+
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  padding: 5px;
+  margin-top:30px;
+  gap:20px;
+}
+
+
+.funding-part1{
+  margin: auto;
+  padding: 10px;
+  justify-content:center;
+}
+
+.funding{
+  padding: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  box-shadow: 2px 5px 2px 5px rgb(0 0 0 / 4%);
+}
+
+
+.funding-part2{
+  margin: auto;
+  padding: 20px;
+  box-shadow: 2px 2px 2px 3px rgb(0 0 0 / 4%) ;
+  text-align:center;
+}
+
+.addrow{text-align:right;
+}
+
+
+/*Merger  div ccs*/
+.merger{
+ border-radius: 5px;
+  margin-top: 40px;
+  border-radius: 5px;
+  margin-bottom: 40px;
+  /* display: flex;
+  justify-content: space-around; */
+}
+#merger_aqua{
+  text-align: left;
+  /* box-shadow: 2px 5px 2px 5px rgb(0 0 0 / 4%); */
+  margin-top:10px;
+}
+
+.subsidiaries-business{
+  margin-top: 40px;
+  margin-bottom: 40px;
+  display: flex;
+  justify-content: space-between;
+  box-shadow: 2px 2px 4px 3px rgb(0 0 0 / 4%);
+
+}
+
+.productsub {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+
+}
+.product-services{
+  display: flex;
+  justify-content: columnn;
+}
+
+
+.product-revenue{
+  width: 100px;
+  height: 50px;
+  display: flex;
+  justify-content: flex-end;
+  /* border: 1px solid red; */
+}
+.product-revenue{
+  width: 100px;
+  height: 80px;
+
+}
